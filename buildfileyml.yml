@@ -14,8 +14,7 @@ install_dependencies:
     - npm install
   artifacts:
     paths:
-      - node_modules/
-
+      - arn:aws:s3:::codepipeline-ap-southeast-1-248631530371/MyDemoDeploymentGrou/BuildArtif/
 test_with_lab:
   stage: test
   script: npm test
