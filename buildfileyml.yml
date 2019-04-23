@@ -6,7 +6,7 @@ stages:
 
 cache:
   paths:
-    - node_modules/
+    - 048377247451.dkr.ecr.ap-southeast-1.amazonaws.com/devopsdemo
 
 install_dependencies:
   stage: build
